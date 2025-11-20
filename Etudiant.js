@@ -9,7 +9,7 @@ this.ages=ages
 this.sectionn=section
 
 }
- 
+ description (){`${this.nom}(${this.ages}ans) - Section:${this.section}`;}
 }
 
 export default Etudiant; 
